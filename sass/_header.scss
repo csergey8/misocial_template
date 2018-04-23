@@ -2,6 +2,7 @@
     height: 80vh;
     background: linear-gradient(to right, rgba($color-primary, 0.8), rgba($color-secondary, 0.8)), url("../img/main_bg.jpg") no-repeat center center;
     background-size: cover;
+    position: relative;
 
 
     &__menu {
@@ -70,7 +71,21 @@
             text-transform: uppercase;
             font-weight: 400;
             font-size: 1.4rem;
+            width: 100%;
         }
+
+        
+
+        // &--intro:before,
+        // &--intro:after {
+        //     content: "";
+        //     position: absolute;
+        //     height: 5px;
+        //     border-bottom: 1px solid white;
+        //     border-top: 1px solid white;
+        //     top: 0;
+        //     width: 24px;
+        // }
     
         &--main {
             font-size: 8.6rem;

@@ -1,6 +1,7 @@
 $color-primary: #6e45e2;
 $color-secondary: #88d3ce;
 $color-font: #4f4f6f;
+$color-font-2: #9fa4af;
 
 
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
@@ -25,7 +26,7 @@ html {
 
 body {
     font-family: $font-display;
-    color: $color-primary;
+    color: $color-font-2;
     font-weight: 400;
     line-height: 1.6;
 }
@@ -33,7 +34,6 @@ body {
 .container {
     max-width: 183rem;
     padding: 4rem 5rem;
-    position: relative;
     height: 100%;
 }
 
