@@ -1,0 +1,70 @@
+$color-primary: #6e45e2;
+$color-secondary: #88d3ce;
+$color-font: #4f4f6f;
+
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+$font-display: 'Maven Pro', sans-serif;
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /// 10px/16 = 64.5 -> 10px = 1rem
+    // @media screen and (max-width: $bp-largest) {
+    //     font-size: 50%;
+    // }
+}
+
+body {
+    font-family: $font-display;
+    color: $color-primary;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 183rem;
+    padding: 4rem 5rem;
+    position: relative;
+    height: 100%;
+}
+
+.btn {
+    &,
+    &:link,
+    &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.2rem 3rem;
+    display: inline-block;
+    border-radius: 10rem;
+    outline: none;
+    cursor: pointer;
+    }
+}
+.btn:hover {
+
+}
+
+.btn--down {
+    background: #fff;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #9fa4af;
+    box-shadow: 2px -1px 53px -8px rgba(0,0,0,0.75);
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+}

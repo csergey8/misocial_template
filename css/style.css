@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Maven Pro", sans-serif;
+  color: #6e45e2;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.container {
+  max-width: 183rem;
+  padding: 4rem 5rem;
+  position: relative;
+  height: 100%; }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.2rem 3rem;
+  display: inline-block;
+  border-radius: 10rem;
+  outline: none;
+  cursor: pointer; }
+
+.btn--down {
+  background: #fff;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #9fa4af;
+  box-shadow: 2px -1px 53px -8px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: none; }
+
+.header {
+  height: 80vh;
+  background: linear-gradient(to right, rgba(110, 69, 226, 0.8), rgba(136, 211, 206, 0.8)), url("../img/main_bg.jpg") no-repeat center center;
+  background-size: cover; }
+  .header__menu {
+    display: flex;
+    justify-content: space-between; }
+    .header__menu--link {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 3rem;
+      color: #fff;
+      letter-spacing: 8px; }
+    .header__menu--img {
+      position: relative;
+      top: 15px;
+      margin-right: 1.8rem; }
+    .header__menu--list {
+      display: flex;
+      list-style: none;
+      color: #fff;
+      font-size: 1.6rem; }
+    .header__menu--item {
+      display: inline-block;
+      margin: 0 2.5em;
+      padding-bottom: 1rem;
+      align-self: flex-end;
+      cursor: pointer;
+      transition: all .3s;
+      border-bottom: 1px solid transparent; }
+    .header__menu--item:hover {
+      border-bottom: 1px solid #fff; }
+    .header__menu--btn {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      height: 4.8rem;
+      position: relative;
+      top: 12px; }
+
+.heading {
+  color: #fff;
+  text-align: center;
+  position: relative; }
+  .heading__title {
+    margin-top: 15rem;
+    text-align: center; }
+    .heading__title--intro {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1.4rem; }
+    .heading__title--main {
+      font-size: 8.6rem;
+      font-weight: 500; }
+    .heading__title--text {
+      font-size: 1.6rem;
+      width: 38rem;
+      margin: 0 auto;
+      font-weight: 400; }
