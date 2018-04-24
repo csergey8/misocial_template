@@ -95,7 +95,13 @@ body {
       color: #fff;
       height: 4.8rem;
       position: relative;
-      top: 12px; }
+      top: 12px;
+      transition: all .3s;
+      font-weight: 700; }
+    .header__menu--btn:hover {
+      color: #6e45e2;
+      background: #fff;
+      font-weight: 700; }
 
 .heading {
   color: #fff;
@@ -253,7 +259,13 @@ body {
     color: #9fa4af;
     height: 4.8rem;
     position: relative;
-    top: 12px; }
+    top: 12px;
+    transition: all .3s;
+    font-weight: 700; }
+  .footer__menu--btn:hover {
+    background: #6e45e2;
+    color: #fff;
+    font-weight: 700; }
 
 .footer__block {
   display: flex;
