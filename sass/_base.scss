@@ -58,16 +58,22 @@ body {
     background: #fff;
     width: 6rem;
     height: 6rem;
-    border-radius: 50%;
+    border-radius: 100%;
     font-size: 2rem;
     color: #9fa4af;
     box-shadow: 2px -1px 53px -8px rgba(0,0,0,0.75);
-    position: absolute;
-    bottom: 25rem;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 6rem;
+    //position: absolute;
+    //bottom: 25rem;
+    //left: 50%;
+    //transform: translateX(-50%);
     outline: none;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.btn--down:hover {
+    box-shadow: 2px -1px 40px 1px rgba(0, 0, 0, 0.75);
 }
 
 .active {

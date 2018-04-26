@@ -80,6 +80,12 @@
     }
 }
 
+@media screen and (max-width: 1600px) {
+    .card {
+        width: 35rem;
+    }
+}
+
 .card:hover {
     box-shadow: 0px 0px 81.88px 10.12px rgba(204, 204, 223, 0.71);
     border: none;
